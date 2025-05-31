@@ -65,3 +65,6 @@ Setup di Bot Telegram:
 Setelah bot berjalan, lakukan penyiapan atau interaksi awal yang diperlukan di bot Telegram yang telah Anda buat melalui BotFather. Ini mungkin melibatkan mengirim perintah /start atau perintah lain yang relevan untuk bot Anda.
 
 
+CARA UPLOAD VIDEO JIKA DIATAS 50MB KE VPS 
+
+`scp "/mnt/d/Downloads/konten1!/contoh.mp4" root@IP_VPS:/root/live-streaming/videos/`
