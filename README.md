@@ -25,3 +25,43 @@ Cara Penggunaan bisa kalian tonton pada video ini :
 
 ## WINDOWS :
 COMING SOON
+
+Langkah-langkah Menjalankan Proyek
+Instal Python: Pastikan Anda sudah menginstal Python di sistem Anda. Anda bisa mengunduhnya dari situs resmi Python.
+
+Buat dan Aktifkan Lingkungan Virtual (venv):
+Ini adalah praktik yang baik untuk mengisolasi dependensi proyek Anda.
+
+Bash
+
+`python -m venv venv`
+Untuk mengaktifkan lingkungan virtual:
+
+Di Windows:
+Bash
+
+.\venv\Scripts\activate
+Di macOS/Linux:
+Bash
+
+`source venv/bin/activate`
+Instal Dependensi:
+Setelah lingkungan virtual aktif, instal semua dependensi yang diperlukan dari file requirements.txt.
+
+Bash
+
+`pip install -r requirements.txt`
+Konfigurasi config.json:
+Anda perlu memasukkan ID obrolan Telegram Anda dan token bot yang Anda dapatkan dari BotFather ke dalam file config.json. Pastikan formatnya benar sesuai dengan struktur JSON.
+
+Jalankan Skrip Python:
+Setelah semua konfigurasi selesai, Anda bisa menjalankan skrip Python utama.
+
+Bash
+
+python bot.py
+
+Setup di Bot Telegram:
+Setelah bot berjalan, lakukan penyiapan atau interaksi awal yang diperlukan di bot Telegram yang telah Anda buat melalui BotFather. Ini mungkin melibatkan mengirim perintah /start atau perintah lain yang relevan untuk bot Anda.
+
+
